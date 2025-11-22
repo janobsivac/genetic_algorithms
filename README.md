@@ -33,8 +33,11 @@ Aby program fungoval, **musíte** mít ve složce projektu připravený obrázek
 1.  V kořenovém adresáři projektu vytvořte složku `image`.
 2.  Vložte do ní svůj obrázek a upravte cestu v `main.java`.
 
+<pre>
 ```java
 String imagePath = "C:\\Users\\janob\\Downloads\\Garfield.jpg";
+<b>```</b>
+<pre>
 
 ## ▶️ Spuštění
 
