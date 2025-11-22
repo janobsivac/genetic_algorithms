@@ -7,21 +7,21 @@ Projekt demonstruje principy evolučních algoritmů: reprezentaci problému (ge
 ## 🚀 Jak to funguje
 
 Program simuluje biologickou evoluci:
-1.  [cite_start]**Start:** Vytvoří populaci náhodných "čmáranic" (chromozomů)[cite: 1481].
-2.  **Hodnocení (Fitness):** Každé řešení porovná pixel po pixelu s předlohou a spočítá chybu. [cite_start]Čím menší chyba, tím lepší jedinec [cite: 1579-1605].
+1.  **Start:** Vytvoří populaci náhodných "čmáranic" (chromozomů).
+2.  **Hodnocení (Fitness):** Každé řešení porovná pixel po pixelu s předlohou a spočítá chybu. Čím menší chyba, tím lepší jedinec.
 3.  **Evoluce:**
-    * [cite_start]**Selekce:** Vybere lepší jedince pro reprodukci (např. turnajová metoda)[cite: 1901].
-    * [cite_start]**Křížení:** Zkombinuje vlastnosti dvou rodičů[cite: 1804].
-    * [cite_start]**Mutace:** Náhodně změní barvu nebo polohu polygonu, aby se zachovala diverzita[cite: 1440].
-4.  [cite_start]**Opakování:** Tento proces běží tisíce generací, dokud se obraz nepodobá předloze [cite: 1972-1976].
+    * **Selekce:** Vybere lepší jedince pro reprodukci (např. turnajová metoda).
+    * **Křížení:** Zkombinuje vlastnosti dvou rodičů.
+    * **Mutace:** Náhodně změní barvu nebo polohu polygonu, aby se zachovala diverzita.
+4.  **Opakování:** Tento proces běží tisíce generací, dokud se obraz nepodobá předloze.
 
 ## 📂 Struktura projektu
 
-* **`Main.java`**: Hlavní třída. [cite_start]Nastavuje parametry evoluce a spouští smyčku[cite: 1701].
-* **`Chromozome.java`**: Reprezentuje jedno řešení (sadu polygonů). [cite_start]Obsahuje metody pro mutaci, křížení a vykreslení[cite: 1523].
-* [cite_start]**`Populace.java`**: Spravuje seznam jedinců a provádí evoluční kroky (selekce, tvorba nové generace)[cite: 1882].
-* [cite_start]**`Fitness.java`**: Načítá předlohu a počítá rozdíl (chybu) mezi vygenerovaným obrázkem a originálem[cite: 1738].
-* [cite_start]**`ShowChromozome.java`**: Pomocná třída pro vizualizaci nejlepšího výsledku v okně[cite: 1526].
+* **`Main.java`**: Hlavní třída. Nastavuje parametry evoluce a spouští smyčku.
+* **`Chromozome.java`**: Reprezentuje jedno řešení (sadu polygonů). Obsahuje metody pro mutaci, křížení a vykreslení.
+* **`Populace.java`**: Spravuje seznam jedinců a provádí evoluční kroky (selekce, tvorba nové generace).
+* **`Fitness.java`**: Načítá předlohu a počítá rozdíl (chybu) mezi vygenerovaným obrázkem a originálem.
+* **`ShowChromozome.java`**: Pomocná třída pro vizualizaci nejlepšího výsledku v okně.
 
 ## 🛠️ Požadavky a instalace
 
@@ -31,7 +31,7 @@ Program simuluje biologickou evoluci:
 ### Příprava předlohy
 Aby program fungoval, **musíte** mít ve složce projektu připravený obrázek:
 1.  V kořenovém adresáři projektu vytvořte složku `image`.
-2.  [cite_start]Vložte do ní obrázek s názvem `orloj.jpg` (nebo upravte cestu v `Main.java`)[cite: 1738].
+2.  Vložte do ní obrázek s názvem `orloj.jpg` (nebo upravte cestu v `Main.java`).
 
 ## ▶️ Spuštění
 
