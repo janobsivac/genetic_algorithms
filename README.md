@@ -39,7 +39,7 @@ String imagePath = "C:\\Users\\janob\\Downloads\\Garfield.jpg";
 
 ## ▶️ Spuštění
 
-1.  Zkompilujte a spusťte třídu `Main`.
+1.  Zkompilujte a spusťte třídu `main`.
 2.  V konzoli uvidíte průběh generací a snižující se chybu (Best Fitness).
 3.  Po dokončení (výchozí nastavení je 3 000 generací) se otevře okno s nejlepším nalezeným výsledkem.
 
@@ -52,3 +52,4 @@ int popSize = 50;           // Velikost populace (více = pomalejší, ale důkl
 double mutationRate = 0.01; // Pravděpodobnost mutace (cca 1-2%)
 double crossRate = 0.5;     // Pravděpodobnost křížení
 int generations = 3000;    // Počet generací
+```
