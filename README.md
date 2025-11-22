@@ -31,13 +31,13 @@ Program simuluje biologickou evoluci:
 ### Příprava předlohy
 Aby program fungoval, **musíte** mít ve složce projektu připravený obrázek:
 1.  V kořenovém adresáři projektu vytvořte složku `image`.
-2.  Vložte do ní obrázek s názvem `orloj.jpg` (nebo upravte cestu v `Main.java`).
+2.  Vložte do ní svůj obrázek (nebo upravte cestu v `Main.java`).
 
 ## ▶️ Spuštění
 
 1.  Zkompilujte a spusťte třídu `Main`.
 2.  V konzoli uvidíte průběh generací a snižující se chybu (Best Fitness).
-3.  Po dokončení (výchozí nastavení je 10 000 generací) se otevře okno s nejlepším nalezeným výsledkem.
+3.  Po dokončení (výchozí nastavení je 3 000 generací) se otevře okno s nejlepším nalezeným výsledkem.
 
 ## ⚙️ Konfigurace (v `Main.java`)
 
@@ -47,4 +47,4 @@ Parametry algoritmu můžete měnit přímo v kódu:
 int popSize = 50;           // Velikost populace (více = pomalejší, ale důkladnější) [cite: 1998]
 double mutationRate = 0.01; // Pravděpodobnost mutace (cca 1-2%)
 double crossRate = 0.5;     // Pravděpodobnost křížení
-int generations = 10000;    // Počet generací (doporučeno > 5000)
+int generations = 3000;    // Počet generací
