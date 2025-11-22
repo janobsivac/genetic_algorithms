@@ -31,7 +31,10 @@ Program simuluje biologickou evoluci:
 ### Příprava předlohy
 Aby program fungoval, **musíte** mít ve složce projektu připravený obrázek:
 1.  V kořenovém adresáři projektu vytvořte složku `image`.
-2.  Vložte do ní svůj obrázek (nebo upravte cestu v `Main.java`).
+2.  Vložte do ní svůj obrázek a upravte cestu v `main.java`.
+
+```java
+String imagePath = "C:\\Users\\janob\\Downloads\\Garfield.jpg";
 
 ## ▶️ Spuštění
 
